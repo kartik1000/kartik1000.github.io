@@ -199,7 +199,7 @@
                 </form>
                 <script>
                   grecaptcha.ready(function() {
-                      grecaptcha.execute(6LdGOdwdAAAAAL1lpfKG1xTWzs7Ho57RYTVHqKdx, {action: 'homepage'}).then(function(token) {
+                      grecaptcha.execute('6LdGOdwdAAAAAL1lpfKG1xTWzs7Ho57RYTVHqKdx', {action: 'homepage'}).then(function(token) {
                          alert(token);
                          document.getElementById("token").value = token;
                       });
